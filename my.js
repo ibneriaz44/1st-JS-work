@@ -6,6 +6,8 @@ function add(){
     one.innerHTML=count;
 }
 function reset(){
+    count= 0;
+    one.innerHTML=count;
     one.innerHTML="Thanks to check our work";
     two.innerHTML="Tables are shown here";
 }
